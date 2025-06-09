@@ -15,7 +15,7 @@ scatter_plot =
 df %>%
   filter(Location == city) %>%
   ggplot(aes(x = Temp9am, y = Humidity9am)) + 
-  geom_point(aes = "orange")
+  geom_point(aes = "blue")
 
 time_series =
   df %>%
